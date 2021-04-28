@@ -28,8 +28,8 @@ let area = {
     height: document.getElementById("bubble-container").offsetHeight
 };
 
-var widthBody = document.getElementById("body").offsetWidth;
-var space = widthBody - area.width;
+var bodyWidth = document.getElementById("body").offsetWidth;
+var space = bodyWidth - area.width;
 
 let bubble = {  
     // Bubble configurations
@@ -51,7 +51,7 @@ let bubble = {
     },
     collision: function (x, y) {
         // Bouncing of the bubble when they hit the walls of the container
-        if (x + this.dx > widthBody - space / 2 - this.radius * 2 || x + this.dx - space / 2 + this.radius < this.radius) {
+        if (x + this.dx > bodyWidth - space / 2 - this.radius * 2 || x + this.dx - space / 2 + this.radius < this.radius) {
             this.dx = -this.dx;
         }
         if (y + this.dy > (area.height + 85) - this.radius || y + this.dy + (area.height - 385) < this.radius) {
