@@ -29,7 +29,7 @@ let area = {
 };
 
 var widthBody = document.getElementById("body").offsetWidth;
-var space = widthBody - bg.width;
+var space = widthBody - area.width;
 
 let bubble = {  
     // Bubble configurations
