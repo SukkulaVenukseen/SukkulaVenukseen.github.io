@@ -69,16 +69,16 @@ let bubble = {
     }
 };
 
-let bubble1 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpd(maxSpeed));
-let bubble2 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpd(maxSpeed));
-let bubble3 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpd(maxSpeed));
-let bubble4 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpd(maxSpeed));
-let bubble5 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpd(maxSpeed));
-let bubble6 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpd(maxSpeed));
-let bubble7 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpd(maxSpeed));
-let bubble8 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpd(maxSpeed));
-let bubble9 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpd(maxSpeed));
-let bubble10 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpd(maxSpeed));
+let bubble1 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpeed(maxSpeed));
+let bubble2 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpeed(maxSpeed));
+let bubble3 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpeed(maxSpeed));
+let bubble4 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpeed(maxSpeed));
+let bubble5 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpeed(maxSpeed));
+let bubble6 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpeed(maxSpeed));
+let bubble7 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpeed(maxSpeed));
+let bubble8 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpeed(maxSpeed));
+let bubble9 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpeed(maxSpeed));
+let bubble10 = bubble.add(getRandomSpeed(maxSpeed), getRandomSpeed(maxSpeed));
 
 bubble1.draw((area.width / 2), Math.floor(Math.random() * 2) + 150);
 bubble2.draw((area.width / 2), Math.floor(Math.random() * 2) + 150);
