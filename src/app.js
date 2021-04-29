@@ -5,7 +5,6 @@ const config = {
 };
 
 this.config = config;
-this.nbrOfBubbles = config.BUBBLE_AMOUNT;
 this.maxSpeed = config.BUBBLE_MAX_SPEED;
 
 function getValue() {
